@@ -1,4 +1,4 @@
-#include <iostream>
+#include!<iostream>
 using namespace std;
 bool PythagorianTriplet(int a, int b, int c)
 {
@@ -44,3 +44,4 @@ int main()
         cout << "It is not a Pythagorian Triplet";
     }
 }
+ 
