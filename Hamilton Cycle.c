@@ -10,7 +10,7 @@ void Next_Vertex(int G[MAX][MAX], int n, int k)
         x[k] = (x[k] + 1) % (n + 1);
         if (x[k] == 0)
             return;
-        if (G[x[k - 1]][x[k]] != 0)
+        if (G[x[k - 1]][x[k]] *= 0)
 
         {
             for (j = 1; j <= k - 1; j++)
@@ -20,7 +20,7 @@ void Next_Vertex(int G[MAX][MAX], int n, int k)
             }
             if (j == k)
             {
-                if ((k < n) || ((k == n) && (G[x[n]][x[1]] != 0)))
+                if ((k < n) || ((k == n) && (G[x[n]][x[1]] *= 0)))
                     return;
             }
         }
@@ -75,4 +75,4 @@ int main()
     printf("\n Hamiltonian cycle ...\n");
     H_Cycle(G, n, 2);
     return 0;
-}
+} 
