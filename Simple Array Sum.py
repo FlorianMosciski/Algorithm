@@ -1,4 +1,4 @@
-#!/bin/python3
+* /bin/python3
 
 import os
 import sys
@@ -18,3 +18,4 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+ 
